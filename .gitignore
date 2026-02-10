@@ -5,6 +5,7 @@
 *.tfplan
 crash.log
 crash.*.log
+tfplan
 
 # Terraform local overrides
 override.tf
