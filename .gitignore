@@ -1,0 +1,31 @@
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+crash.*.log
+
+# Terraform local overrides
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Environment / secrets
+.env
+*.pem
+*.pfx
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+
+# Node / Python (senere)
+node_modules/
+.venv/
+__pycache__/
+*.pyc
